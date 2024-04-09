@@ -1,0 +1,40 @@
+.main{
+   text-transform: capitalize;
+   background: transparent;
+   backdrop-filter: blur(20px);
+   color: aliceblue;
+   margin-top: 10%;
+   margin-left: 20%;
+   margin-right: 20%;
+   margin-bottom: 10%;
+   text-align: center;
+   padding-top: 5%;
+   padding-bottom: 5%;
+   border-radius: 20px;
+}
+
+body{
+    background-image: url("bmw-logo-blue-car-8yn7wj4lkzlnbcl8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button{
+    border-radius: 20px;
+    text-transform: capitalize;
+    background-color: rgb(29, 111, 252);
+    font-weight: bolder;
+    color: aliceblue;
+    padding: 1%;
+    width: 30%;
+}
+
+input{
+  border-radius: 10px;
+  padding: 1%;
+  width: 30%;
+}
+
+a{
+ color: aliceblue;
+}

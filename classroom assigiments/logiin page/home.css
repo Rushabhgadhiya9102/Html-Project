@@ -1,0 +1,67 @@
+.navbar ul{
+    list-style-type:none;
+    background: transparent;
+    backdrop-filter: blur(50px);
+    padding: 0px;
+    margin: -10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.navbar a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: left;
+  padding: 15px;
+  display: block;
+  text-transform:capitalize;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.navbar a:hover{
+
+    background-color: rgb(84, 84, 84);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.navbar li{
+    float: left;
+}
+
+body{
+    background-image: url("ixfa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#text{
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-size:x-large;
+    margin-top: 25%;
+    text-shadow: 50%;
+}
+
+#b1{
+    border-radius: 10px;
+    padding: 1%;
+    width: 20%;
+    text-transform: capitalize;
+    background-color: rgb(31, 31, 237);
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#logout{
+  background-color: grey;
+  border-radius: 10px;
+}
+
+#x-ness img{
+    
+    background-size: cover;
+    
+}
