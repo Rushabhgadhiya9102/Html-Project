@@ -1,0 +1,57 @@
+.image{
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
+    margin: 20px;
+    
+}
+
+#kingfisher{
+    float: left;
+}
+
+#swans{
+    float: right;
+}
+
+#owl{
+    float:left;
+}
+
+#penguine{
+    float:right;
+}
+
+.p{
+    font-weight: bolder;
+    color: blue;
+}
+
+.navbar ul{
+    list-style-type:none;
+    background-color: bisque;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;    
+}
+
+.navbar a{
+color: black;
+text-decoration: none;
+text-align: left;
+padding: 15px;
+display: block;
+text-transform:capitalize;
+font-weight: bolder;;
+
+}
+
+.navbar a:hover{
+
+    background-color: rgb(255, 205, 143);
+    border-radius: 10px;
+}
+
+.navbar li{
+    float: left;
+}
