@@ -1,0 +1,303 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* nav-bar */
+
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+    font-weight: bolder;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    padding: 20px;
+    backdrop-filter: blur(20px);
+    color: aliceblue;
+}
+
+a{
+    color: aliceblue;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+a:hover{
+
+   border-radius: 10px;
+   transition: all 0.5s; 
+   font-size: larger;
+}
+
+/* icons */
+
+.fa-apple:hover{
+    transition: all 0.5s;
+    font-size: larger;
+}
+
+.fa-magnifying-glass:hover{ 
+    transition: all 0.5s;
+    font-size: larger;
+}
+
+.fa-bag-shopping:hover{
+    transition: all 0.5s;
+    font-size: larger;
+}
+
+/* mac video */
+
+#mac1{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    border-radius: 20px;
+    margin-bottom: 10%;
+}
+
+#series{
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 10%;
+}
+
+#series2{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#logo{
+    width: 10%;
+    margin-top: 15%;
+    margin-left: 37%;
+}
+
+#text{
+    text-align: center;
+    margin-top: -7.5%;
+    font-size: 500%;
+    text-transform: capitalize;
+}
+
+                            /* rotation-card */
+
+/* macbook pro 1 */
+
+.card{
+    width: 400px;
+    margin-left: -0.5%;
+}
+
+.card-content{
+    position: relative;
+    padding: 15rem 5rem 5rem;
+    transform-style: preserve-3d;
+    transition: transform 2s; 
+}
+
+.card:hover .card-content{
+    transform: rotateY(180deg);
+}
+
+.card-front , .card-back{
+    position: absolute;
+    inset: 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    color: aliceblue;
+    margin: 30px;
+}
+
+.card-front{
+    background-image: url("macbook pro.jpg");
+    background-color: rgba(225, 163, 42, 0.2);
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.card-back{
+    background-color: black;
+    transform: rotateY(180deg);
+    gap: 0.5rem;
+    color: aliceblue;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+/* i-mac */
+
+.card2{
+    width: 400px;
+    margin-left: 24%;
+    margin-top: -21%;
+}
+
+.card-content2{
+    position: relative;
+    padding: 15rem 5rem 5rem;
+    transform-style: preserve-3d;
+    transition: transform 2s; 
+}
+
+.card2:hover .card-content2{
+    transform: rotateY(180deg);
+}
+
+.card-front2 , .card-back2{
+    position: absolute;
+    inset: 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    color: aliceblue;
+    margin: 30px;
+}
+
+.card-front2{
+    background-image: url("mac\ 1.webp");
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.card-back2{
+    background-color: black;
+    transform: rotateY(180deg);
+    gap: 0.5rem;
+    color: aliceblue;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+/* mac mini */
+
+.card3{
+    width: 400px;
+    margin-left: 49%;
+    margin-top: -21%;
+}
+
+.card-content3{
+    position: relative;
+    padding: 15rem 5rem 5rem;
+    transform-style: preserve-3d;
+    transition: transform 2s; 
+}
+
+.card3:hover .card-content3{
+    transform: rotateY(180deg);
+}
+
+.card-front3 , .card-back3{
+    position: absolute;
+    inset: 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    color: aliceblue;
+    margin: 30px;
+}
+
+.card-front3{
+    background-image: url("download.jpeg");
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.card-back3{
+    background-color: black;
+    transform: rotateY(180deg);
+    gap: 0.5rem;
+    color: aliceblue;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+/* mac-pro */
+
+.card4{
+    width: 400px;
+    margin-left: 74%;
+    margin-top: -21%;
+}
+
+.card-content4{
+    position: relative;
+    padding: 15rem 5rem 5rem;
+    transform-style: preserve-3d;
+    transition: transform 2s; 
+}
+
+.card4:hover .card-content4{
+    transform: rotateY(180deg);
+}
+
+.card-front4 , .card-back4{
+    position: absolute;
+    inset: 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    color: aliceblue;
+    margin: 30px;
+}
+
+.card-front4{
+    background-image: url("mac\ pro.jpg");
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.card-back4{
+    background-color: black;
+    transform: rotateY(180deg);
+    gap: 0.5rem;
+    color: aliceblue;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+/* rotation-card END */
+
+/* configurations */
+.m3chip{
+    width: 80%;
+    margin-left: 10%; 
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+.m3text{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10%;
+    font-size: 300%;
+}
